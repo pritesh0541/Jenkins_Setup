@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stagee('Hello'){
+        stage('Hello'){
             steps{
                 echo 'This is First Jenkins Setup'
         }
